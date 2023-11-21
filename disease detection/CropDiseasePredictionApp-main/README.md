@@ -1,10 +1,10 @@
-# Crop Disease Prediction App
+# Team Hawk 
 
-## NOTE: This repo is Work In Progress
+
 
 <!-- Intro and about the project -->
 
-This app predicts the disease of the leaf image of the given plant using Deep Learning.
+This is a unfinished version and a subject to various changes where this machine predicts the disease of the leaf image of the given plant using Deep Learning and machine learning, while the other parts of this provide the alerts for the project.
 
 ## Technologies Used
 
@@ -45,10 +45,6 @@ This app predicts the disease of the leaf image of the given plant using Deep Le
 - Install python requirements using `$ pip install -r requirements.txt`
 - Run the server using `$ python main.py`
 
-## Additional Links
-### LINKS not working now
 
-<!-- Kaggle model training links -->
 
-- [Kaggle Classifier training link]()
-- [Kaggle Autoencoder Training Link]()
+

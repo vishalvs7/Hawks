@@ -1,2 +1,3 @@
-# A project on Crop Disease Detection Using Deep Learning Computer Vision.
-This projects uses Convolutional Neural Network to Identify different types of Diseases in plants using their image of leaves.
+# Hawk- plants disease detection  segment
+
+This segment highly focusses on the quality of plants that are grown in the region of our primary customers and we come with this code 

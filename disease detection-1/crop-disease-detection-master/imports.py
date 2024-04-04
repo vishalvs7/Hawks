@@ -1,34 +1,35 @@
 #=============================#
 #common imports               #
 #=============================#
-import zipfile
-import requests
-import cv2
-import matplotlib.pyplot as plt
-import re
-import numpy as np
-import math
-import gradio as gr
-# use this only on google colab
-#from google.colab import files 
-from glob import glob
+# import system libs
 import os
+import time
+import shutil
+import pathlib
+import itertools
 
-#=============================#
-#pytorch imports              #
-#=============================#
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torch.utils.data as data
-import torchvision
-from torchvision import models, datasets, transforms
+# import data handling tools
+import cv2
+import numpy as np
+import pandas as pd
+import seaborn as sns
+sns.set_style('darkgrid')
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
 
-#=============================#
-#pytorch-lightning imports    #
-#=============================#
+# import Deep learning Libraries
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam, Adamax
+from tensorflow.keras.metrics import categorical_crossentropy
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Activation, Dropout, BatchNormalization
+from tensorflow.keras import regularizers
 
-import pytorch_lightning as pl
-import torchmetrics as tm
-from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping, LearningRateMonitor, Callback
+# Ignore Warnings
+import warnings
+warnings.filterwarnings("ignore")
+
+print ('modules loaded')

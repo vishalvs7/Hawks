@@ -11,7 +11,7 @@ YOLOv4 and YOLOv7 weights are also compatible with this implementation.
 
 
 
-##Key concepts
+## Key concepts
 
 YOLOv3 (You Only Look Once):
 
